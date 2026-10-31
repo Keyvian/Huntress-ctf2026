@@ -1,0 +1,15 @@
+lief
+pefile
+dnfile
+pillow
+pycryptodome
+cryptography
+pyzipper
+capstone
+pyelftools
+requests
+pyzbar
+pytesseract
+olefile
+unicorn
+websocket-client

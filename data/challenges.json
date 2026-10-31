@@ -1,0 +1,7130 @@
+[
+ {
+  "id": "binary-reverse-engineering-day-01-c-elf-orientation",
+  "day": 1,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ ELF Aware",
+  "prompt": "Before you can reverse anything, you have to learn to read. These plain C binaries are your primer: headers, section tables, symbol tables. Start with `readelf -h -S` and work your way down.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 2,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day01/binary-elf-aware.md",
+  "release_day": 1
+ },
+ {
+  "id": "metadata-forensics-day-01-hash-to-ride",
+  "day": 1,
+  "lane": "metadata-forensics",
+  "title": "🔎 You Must Be This Hash to Ride",
+  "prompt": "Three ordinary files arrived without trustworthy labels. Build an identity inventory from the bytes themselves and prove which labels can—and cannot—be trusted.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day01/metadata-you-must-be-this-hash-to-ride.md",
+  "release_day": 1
+ },
+ {
+  "id": "mobile-android-day-01-exported-trust",
+  "day": 1,
+  "lane": "mobile-android",
+  "title": "📱 Exported Trust",
+  "prompt": "Identify an exported deep-link Activity that attaches an embedded client credential, invoke it with the correct case reference, and return the backend evidence code.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day01/mobile-exported-trust.md",
+  "release_day": 1
+ },
+ {
+  "id": "script-analysis-day-01-native-signals",
+  "day": 1,
+  "lane": "script-analysis",
+  "title": "📜 Power Play",
+  "prompt": "Three PowerShell specimens are on the table, and none of them will ever run. That's fine, because you only need to read them. Classify each script's intent, map its primary ATT&CK technique, and pull out the exact indicators sitting in plain sight.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day01/script-power-play.md",
+  "release_day": 1
+ },
+ {
+  "id": "warmups-day-01",
+  "day": 1,
+  "lane": "warmups",
+  "title": "👶 A Little Based",
+  "prompt": "Everyone has to start somewhere. I hear sixty-four is a good base.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day01/warmups-a-little-based.md",
+  "release_day": 1
+ },
+ {
+  "id": "welcome-robots",
+  "day": 1,
+  "lane": "welcome",
+  "title": "Welcome Robots",
+  "prompt": "Ask your AI teammate to identify the Welcome Robots challenge and provide the answer for the CTF platform.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day01/welcome-robots.md",
+  "release_day": 1
+ },
+ {
+  "id": "read-the-rules",
+  "day": 1,
+  "lane": "welcome",
+  "title": "Read the Rules",
+  "prompt": "Please follow the rules for the Huntress CTF!\n\nRead the rules at https://ctf.huntress.com/rules\n\nIf you look closely, you can find a flag!\n\nThe flag is hidden in the page itself — invisible on screen, but present in the page HTML. Inspect the page (your browser developer tools will do) and submit the exact flag value you find.\n\nSubmit it to the Game Master here, or in the Read the Rules CourseStack lesson, to prove you have read the rules.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day01/read-the-rules.md",
+  "release_day": 1
+ },
+ {
+  "id": "binary-reverse-engineering-day-02-cpp-and-pe-orientation",
+  "day": 2,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Mangled",
+  "prompt": "C++ on Windows. The symbols are mangled, the classes hide behind vtables, and RTTI is your Rosetta Stone. Demangle it all with `c++filt`, reconstruct the classes, and don't forget the PE imports.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day02/binary-mangled.md",
+  "release_day": 2
+ },
+ {
+  "id": "metadata-forensics-day-02-looks-can-be-deceiving",
+  "day": 2,
+  "lane": "metadata-forensics",
+  "title": "🔎 Looks Can Be Deceiving",
+  "prompt": "The extensions claim one story; the first sixteen bytes tell another. Identify what each artifact actually is and isolate the deliberate disguise.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day02/metadata-looks-can-be-deceiving.md",
+  "release_day": 2
+ },
+ {
+  "id": "mobile-android-day-02-deep-link-drift",
+  "day": 2,
+  "lane": "mobile-android",
+  "title": "📱 Deep Link Drift",
+  "prompt": "Day 1 taught you the roads. Now learn which ones are actually guarded — tell verified routing apart from a scheme and host that wave everybody through.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day02/mobile-deep-link-drift.md",
+  "release_day": 2
+ },
+ {
+  "id": "script-analysis-day-02-encoded-intent",
+  "day": 2,
+  "lane": "script-analysis",
+  "title": "📜 Host With the Most",
+  "prompt": "Windows Script Host has JScript plans for execution, download, upload, and impact. Carry your PowerShell findings forward, tell a function call from an invocation or a property access, and work out which script hands off to which.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day02/script-host-with-the-most.md",
+  "release_day": 2
+ },
+ {
+  "id": "warmups-day-02",
+  "day": 2,
+  "lane": "warmups",
+  "title": "👶 Half a Turn",
+  "prompt": "Thirteen steps forward. Funny how that works out.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 8,
+    "regular_set_count": 8,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 25000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day02/warmups-half-a-turn.md",
+  "release_day": 2
+ },
+ {
+  "id": "binary-reverse-engineering-day-03-managed-configuration",
+  "day": 3,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Table Manners",
+  "prompt": "A .NET binary is a database wearing a trench coat. Read the CLI metadata tables — methods, strings, signatures — and find where the configuration is stashed. `ilspycmd` and `strings` are your friends.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day03/binary-table-manners.md",
+  "release_day": 3
+ },
+ {
+  "id": "metadata-forensics-day-03-bom-voyage",
+  "day": 3,
+  "lane": "metadata-forensics",
+  "title": "🔎 BOM Voyage",
+  "prompt": "A text export pipeline produced files that look identical in an editor but behave differently in scripts. Find the encoding landmines before they break the investigation.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day03/metadata-bom-voyage.md",
+  "release_day": 3
+ },
+ {
+  "id": "mobile-android-day-03-intent-injection",
+  "day": 3,
+  "lane": "mobile-android",
+  "title": "📱 Intent Injection",
+  "prompt": "Trace attacker-controlled extras through an internal navigation boundary.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day03/mobile-intent-injection.md",
+  "release_day": 3
+ },
+ {
+  "id": "script-analysis-day-03-batch-expansion",
+  "day": 3,
+  "lane": "script-analysis",
+  "title": "📜 Expansion Pack",
+  "prompt": "cmd.exe expands percents, delays expansion, CALLs twice, and bends FOR loops into indirection. Reconstruct every variable exactly as the interpreter would see it — without executing a single line — then follow the staged chain to its final handoff.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day03/script-expansion-pack.md",
+  "release_day": 3
+ },
+ {
+  "id": "warmups-day-03",
+  "day": 3,
+  "lane": "warmups",
+  "title": "👶 Hex Appeal",
+  "prompt": "Sixteen seems like a perfectly reasonable number of fingers.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 13,
+    "regular_set_count": 13,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day03/warmups-hex-appeal.md",
+  "release_day": 3
+ },
+ {
+  "id": "binary-reverse-engineering-day-04-go-runtime-fingerprints",
+  "day": 4,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Go Fish",
+  "prompt": "Go binaries are chatty: they ship with build info, function names, and file paths baked right in. Fish them out and map what this one was built to do.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day04/binary-go-fish.md",
+  "release_day": 4
+ },
+ {
+  "id": "metadata-forensics-day-04-picture-this",
+  "day": 4,
+  "lane": "metadata-forensics",
+  "title": "🔎 Picture This",
+  "prompt": "A dozen photographs have been resized, renamed, and shuffled. Reconstruct their true dimensions and find the image whose presentation does not match its structure.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day04/metadata-picture-this.md",
+  "release_day": 4
+ },
+ {
+  "id": "mobile-android-day-04-pending-intent-relay",
+  "day": 4,
+  "lane": "mobile-android",
+  "title": "📱 Pending Intent Relay",
+  "prompt": "Recover and redirect a mutable PendingIntent while preserving every earlier component check.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day04/mobile-pending-intent-relay.md",
+  "release_day": 4
+ },
+ {
+  "id": "script-analysis-day-04-shell-contrast",
+  "day": 4,
+  "lane": "script-analysis",
+  "title": "📜 Dim and Dimmer",
+  "prompt": "These VBScript specimens hide their material behind character codes, reversible transforms, and winding control flow. Unwind every representation on paper, classify each behavior, and find out which stage passes the baton to which.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day04/script-dim-and-dimmer.md",
+  "release_day": 4
+ },
+ {
+  "id": "warmups-day-04",
+  "day": 4,
+  "lane": "warmups",
+  "title": "👶 Two of a Kind",
+  "prompt": "There are only two sides to this story.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 18,
+    "regular_set_count": 18,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 35000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day04/warmups-two-of-a-kind.md",
+  "release_day": 4
+ },
+ {
+  "id": "binary-reverse-engineering-day-05-rust-runtime-shapes",
+  "day": 5,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Rust Belt",
+  "prompt": "Rust leaves its own fingerprints: mangled symbols with a distinct accent, panic strings that confess, trait objects hiding in plain sight. Learn the accent.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day05/binary-rust-belt.md",
+  "release_day": 5
+ },
+ {
+  "id": "metadata-forensics-day-05-chunk-norris",
+  "day": 5,
+  "lane": "metadata-forensics",
+  "title": "🔎 Chunk Norris",
+  "prompt": "The PNGs render, but rendering is not proof. Walk their chunks, verify their declared geometry, and locate the image with an unexpected structural passenger.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day05/metadata-chunk-norris.md",
+  "release_day": 5
+ },
+ {
+  "id": "mobile-android-day-05-backup-spill",
+  "day": 5,
+  "lane": "mobile-android",
+  "title": "📱 Backup Spill",
+  "prompt": "Extract synthetic application state admitted by a flawed backup boundary.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day05/mobile-backup-spill.md",
+  "release_day": 5
+ },
+ {
+  "id": "script-analysis-day-05-python-carrier-lab",
+  "day": 5,
+  "lane": "script-analysis",
+  "title": "📜 Hatch Careful",
+  "prompt": "Nine Python behaviors come wrapped in fourteen disguises: bytecode, wheels, zipapps, frozen executables, and armored runtimes. Peel each carrier back to its intent without letting anything hatch, and identify the package that tells a different story than its payload.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day05/script-hatch-careful.md",
+  "release_day": 5
+ },
+ {
+  "id": "warmups-day-05",
+  "day": 5,
+  "lane": "warmups",
+  "title": "👶 By the Numbers",
+  "prompt": "These characters have been reduced to numbers.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 23,
+    "regular_set_count": 23,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 40000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day05/warmups-by-the-numbers.md",
+  "release_day": 5
+ },
+ {
+  "id": "binary-reverse-engineering-day-06-java-bytecode-loader",
+  "day": 6,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Pool Party",
+  "prompt": "Every Java class file carries its own phone book: the constant pool. Names, methods, invocations — it's all in there. Dive in and take attendance.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day06/binary-pool-party.md",
+  "release_day": 6
+ },
+ {
+  "id": "metadata-forensics-day-06-portable-deception",
+  "day": 6,
+  "lane": "metadata-forensics",
+  "title": "🔎 Portable Deception",
+  "prompt": "A document bundle mixes real PDFs, renamed impostors, and multiple declared versions. Determine what the files promise, what they contain, and which promise is false.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day06/metadata-portable-deception.md",
+  "release_day": 6
+ },
+ {
+  "id": "mobile-android-day-06-provider-paths",
+  "day": 6,
+  "lane": "mobile-android",
+  "title": "📱 Provider Paths",
+  "prompt": "Abuse an overbroad provider path and correlate its records with prior intent evidence.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day06/mobile-provider-paths.md",
+  "release_day": 6
+ },
+ {
+  "id": "script-analysis-day-06-bash-behavior-graphs",
+  "day": 6,
+  "lane": "script-analysis",
+  "title": "📜 Shell We Begin",
+  "prompt": "Six Bash behavior graphs, none of which will ever run. Read them like a native: map the adapters, count the stages, tag the ATT&CK techniques, and pull the exact indicators hiding in the final bytes.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day06/script-shell-we-begin.md",
+  "release_day": 6
+ },
+ {
+  "id": "warmups-day-06",
+  "day": 6,
+  "lane": "warmups",
+  "title": "👶 Eight Is Enough",
+  "prompt": "Someone counted on eight fingers. Again.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 28,
+    "regular_set_count": 28,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 45000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day06/warmups-eight-is-enough.md",
+  "release_day": 6
+ },
+ {
+  "id": "binary-reverse-engineering-day-07-kotlin-staging-logic",
+  "day": 7,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Routine Check",
+  "prompt": "Kotlin coroutines don't run — they suspend, resume, and hop between states. Reconstruct the state machine from the metadata and figure out what this one was staging.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 55000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 90000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day07/binary-routine-check.md",
+  "release_day": 7
+ },
+ {
+  "id": "metadata-forensics-day-07-seven-zip-no-relation",
+  "day": 7,
+  "lane": "metadata-forensics",
+  "title": "🔎 Seven-Zip, No Relation",
+  "prompt": "Files arrive inside and beside a collection of ZIP archives. Count what the archives claim, distinguish empty space from evidence, and find the census that does not add up.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day07/metadata-seven-zip-no-relation.md",
+  "release_day": 7
+ },
+ {
+  "id": "mobile-android-day-07-webview-bridge",
+  "day": 7,
+  "lane": "mobile-android",
+  "title": "📱 WebView Bridge",
+  "prompt": "Cross a challenge-owned WebView bridge through an untrusted origin.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 48,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 56,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day07/mobile-webview-bridge.md",
+  "release_day": 7
+ },
+ {
+  "id": "script-analysis-day-07-node-operation-graphs",
+  "day": 7,
+  "lane": "script-analysis",
+  "title": "📜 Node by Node",
+  "prompt": "Eight Node.js operation graphs that will never execute. Spot the indirect expansions and token fragmentation, then sort each graph into its role — benign, staging, dropping, downloading, uploading, launching, scheduled, or multi-stage — from the final bytes alone.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day07/script-node-by-node.md",
+  "release_day": 7
+ },
+ {
+  "id": "warmups-day-07",
+  "day": 7,
+  "lane": "warmups",
+  "title": "👶 Percent Chance",
+  "prompt": "My address bar is having a moment.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 33,
+    "regular_set_count": 33,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day07/warmups-percent-chance.md",
+  "release_day": 7
+ },
+ {
+  "id": "binary-reverse-engineering-day-08-swift-network-configuration",
+  "day": 8,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Swift Justice",
+  "prompt": "Swift binaries speak in protocols and hide their networking in plain sight. Follow the symbols to the URL configuration and see where this one phones home.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 113,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 320000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day08/binary-swift-justice.md",
+  "release_day": 8
+ },
+ {
+  "id": "metadata-forensics-day-08-whats-in-the-box",
+  "day": 8,
+  "lane": "metadata-forensics",
+  "title": "🔎 What’s in the Box?",
+  "prompt": "The count was only the beginning. Inventory every stored path, preserve directory context, and identify the archive whose names reveal an impossible provenance claim.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day08/metadata-whats-in-the-box.md",
+  "release_day": 8
+ },
+ {
+  "id": "mobile-android-day-08-cleartext-session",
+  "day": 8,
+  "lane": "mobile-android",
+  "title": "📱 Cleartext Session",
+  "prompt": "Recover a synthetic session from allowed cleartext traffic and replay it against the backend.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day08/mobile-cleartext-session.md",
+  "release_day": 8
+ },
+ {
+  "id": "script-analysis-day-08-cross-language-iocs",
+  "day": 8,
+  "lane": "script-analysis",
+  "title": "📜 Lost in Translation",
+  "prompt": "The same indicators show up in every language the campaign speaks, each with its own quoting, escaping, and encoding accent. Normalize them to their exact form and find the one that doesn't match its siblings.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day08/script-lost-in-translation.md",
+  "release_day": 8
+ },
+ {
+  "id": "warmups-day-08",
+  "day": 8,
+  "lane": "warmups",
+  "title": "👶 Entity Relations",
+  "prompt": "The browser understands. Do you?",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 38,
+    "regular_set_count": 38,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 55000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day08/warmups-entity-relations.md",
+  "release_day": 8
+ },
+ {
+  "id": "binary-reverse-engineering-day-09-nim-generated-runtime",
+  "day": 9,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Nimble",
+  "prompt": "Nim compiles down to C, but the generated names give it away. Learn to spot Nim's runtime fingerprints hiding inside C-shaped clothing.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 9,
+    "ranked_deadline_ms": 320000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day09/binary-nimble.md",
+  "release_day": 9
+ },
+ {
+  "id": "metadata-forensics-day-09-built-different",
+  "day": 9,
+  "lane": "metadata-forensics",
+  "title": "🔎 Built Different",
+  "prompt": "A software drop contains executables for several architectures, plus decoys wearing executable extensions. Determine what can actually run where.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day09/metadata-built-different.md",
+  "release_day": 9
+ },
+ {
+  "id": "mobile-android-day-09-trust-everyone",
+  "day": 9,
+  "lane": "mobile-android",
+  "title": "📱 Trust Everyone",
+  "prompt": "Exploit a challenge CA accepted by a permissive trust implementation.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day09/mobile-trust-everyone.md",
+  "release_day": 9
+ },
+ {
+  "id": "script-analysis-day-09-stager-relationships",
+  "day": 9,
+  "lane": "script-analysis",
+  "title": "📜 All the World's a Stager",
+  "prompt": "Every stager claims to know who came before it and who comes next. Build the relationship graph from final-byte evidence alone, and expose the stage whose claimed family tree is impossible.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day09/script-all-the-world-s-a-stager.md",
+  "release_day": 9
+ },
+ {
+  "id": "warmups-day-09",
+  "day": 9,
+  "lane": "warmups",
+  "title": "👶 Escape Room",
+  "prompt": "These characters would very much like to escape.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 43,
+    "regular_set_count": 43,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 60000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day09/warmups-escape-room.md",
+  "release_day": 9
+ },
+ {
+  "id": "binary-reverse-engineering-day-10-zig-cross-platform-services",
+  "day": 10,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Zig Zag",
+  "prompt": "Zig promises one binary for every platform. Compare the ELF and PE service descriptors side by side and prove they're the same program wearing different uniforms.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day10/binary-zig-zag.md",
+  "release_day": 10
+ },
+ {
+  "id": "metadata-forensics-day-10-where-do-we-begin",
+  "day": 10,
+  "lane": "metadata-forensics",
+  "title": "🔎 Where Do We Begin?",
+  "prompt": "Architecture tells you whether a binary can run; its entry point tells you where execution begins. Map the start addresses and catch the report that is lying.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 2,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 2,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day10/metadata-where-do-we-begin.md",
+  "release_day": 10
+ },
+ {
+  "id": "mobile-android-day-10-network-config-split",
+  "day": 10,
+  "lane": "mobile-android",
+  "title": "📱 Network Config Split",
+  "prompt": "Diff manifest and Network Security Config variants to locate the true transport exception.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day10/mobile-network-config-split.md",
+  "release_day": 10
+ },
+ {
+  "id": "script-analysis-day-10-wmi-persistence-reconstruction",
+  "day": 10,
+  "lane": "script-analysis",
+  "title": "📜 Bind Over Matter",
+  "prompt": "A MOF file declares classes, namespaces, filters, and consumers, but only some bindings actually tie them together. Reconstruct the persistence intent, separate the operational relationships from the decoys, and name the subscription that would really survive a reboot.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day10/script-bind-over-matter.md",
+  "release_day": 10
+ },
+ {
+  "id": "warmups-day-10",
+  "day": 10,
+  "lane": "warmups",
+  "title": "👶 Thirty-Two Below",
+  "prompt": "Same neighborhood. Smaller alphabet.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 48,
+    "regular_set_count": 48,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 65000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day10/warmups-thirty-two-below.md",
+  "release_day": 10
+ },
+ {
+  "id": "binary-reverse-engineering-day-11-d-collection-planner",
+  "day": 11,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ D-Day",
+  "prompt": "D templates generate code the way a printing press generates pages — fast, and everywhere. Trace the runtime's template expansions back to the collection config they built.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day11/binary-d-day.md",
+  "release_day": 11
+ },
+ {
+  "id": "metadata-forensics-day-11-whats-my-name-again",
+  "day": 11,
+  "lane": "metadata-forensics",
+  "title": "🔎 What’s My Name Again?",
+  "prompt": "Filenames have been randomized, but Windows version resources remember what the binaries called themselves. Recover the original identities and expose the impersonator.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 2,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 2,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day11/metadata-whats-my-name-again.md",
+  "release_day": 11
+ },
+ {
+  "id": "mobile-android-day-11-local-secrets",
+  "day": 11,
+  "lane": "mobile-android",
+  "title": "📱 Local Secrets",
+  "prompt": "Separate active credentials from decoys across generated local stores.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day11/mobile-local-secrets.md",
+  "release_day": 11
+ },
+ {
+  "id": "script-analysis-day-11-native-api-semantics",
+  "day": 11,
+  "lane": "script-analysis",
+  "title": "📜 By Any Other Name",
+  "prompt": "These scripts reach for native APIs by name, but a name isn't a behavior. Map each reference to the receipt-backed action it models, and flag the call whose claimed purpose the evidence doesn't support.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day11/script-by-any-other-name.md",
+  "release_day": 11
+ },
+ {
+  "id": "warmups-day-11",
+  "day": 11,
+  "lane": "warmups",
+  "title": "👶 Safe Travels",
+  "prompt": "Our usual base went on a URL-friendly vacation.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 20000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 53,
+    "regular_set_count": 53,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 70000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day11/warmups-safe-travels.md",
+  "release_day": 11
+ },
+ {
+  "id": "binary-reverse-engineering-day-12-pascal-archive-stager",
+  "day": 12,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Pascal's Wager",
+  "prompt": "Pascal is betting you won't read its record layouts. Take the wager: unpack the archive stager's structures and read the configuration straight from memory's own filing cabinet.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day12/binary-pascal-s-wager.md",
+  "release_day": 12
+ },
+ {
+  "id": "metadata-forensics-day-12-managed-expectations",
+  "day": 12,
+  "lane": "metadata-forensics",
+  "title": "🔎 Managed Expectations",
+  "prompt": "The .NET assemblies share names, versions, and source ancestry—but their module identities remain distinct. Separate rebuilds from renames.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day12/metadata-managed-expectations.md",
+  "release_day": 12
+ },
+ {
+  "id": "mobile-android-day-12-sqlite-assumptions",
+  "day": 12,
+  "lane": "mobile-android",
+  "title": "📱 SQLite Assumptions",
+  "prompt": "Reconstruct authorization from a synthetic SQLite cache and prove server-side impact.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day12/mobile-sqlite-assumptions.md",
+  "release_day": 12
+ },
+ {
+  "id": "script-analysis-day-12-autoit-workflow-pair",
+  "day": 12,
+  "lane": "script-analysis",
+  "title": "📜 AutoIt Takes Two",
+  "prompt": "Two inert AutoIt workflows arrived as a matched set, and each one carries half the story. Correlate them with everything you've proven so far, and decide which pairing is genuine and which is just going through the motions.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day12/script-autoit-takes-two.md",
+  "release_day": 12
+ },
+ {
+  "id": "warmups-day-12",
+  "day": 12,
+  "lane": "warmups",
+  "title": "👶 Back at You",
+  "prompt": "Maybe we started at the wrong end.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 58,
+    "regular_set_count": 58,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 75000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day12/warmups-back-at-you.md",
+  "release_day": 12
+ },
+ {
+  "id": "binary-reverse-engineering-day-13-crystal-dns-configuration",
+  "day": 13,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Crystal Clear",
+  "prompt": "Crystal compiles to native code with a distinctive shine. Fingerprint the runtime, then follow the DNS labels — this one has somewhere it wants to resolve.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day13/binary-crystal-clear.md",
+  "release_day": 13
+ },
+ {
+  "id": "metadata-forensics-day-13-product-placement",
+  "day": 13,
+  "lane": "metadata-forensics",
+  "title": "🔎 Product Placement",
+  "prompt": "Installers were copied, renamed, and repackaged. Recover stable product identities, distinguish revisions from different products, and find the collision.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day13/metadata-product-placement.md",
+  "release_day": 13
+ },
+ {
+  "id": "mobile-android-day-13-keystore-misuse",
+  "day": 13,
+  "lane": "mobile-android",
+  "title": "📱 Keystore Misuse",
+  "prompt": "Recover data protected by an app-controlled wrapping key despite nominal Keystore use.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day13/mobile-keystore-misuse.md",
+  "release_day": 13
+ },
+ {
+  "id": "script-analysis-day-13-archive-delivery-chain",
+  "day": 13,
+  "lane": "script-analysis",
+  "title": "📜 Zip Code",
+  "prompt": "A delivery archive nests scripts inside containers inside more containers. Trace each member's role and handoff without executing a single one, and identify the link in the chain that was never supposed to be delivered.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day13/script-zip-code.md",
+  "release_day": 13
+ },
+ {
+  "id": "warmups-day-13",
+  "day": 13,
+  "lane": "warmups",
+  "title": "👶 Opposite Day",
+  "prompt": "A met Z. They really hit it off.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 63,
+    "regular_set_count": 63,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day13/warmups-opposite-day.md",
+  "release_day": 13
+ },
+ {
+  "id": "binary-reverse-engineering-day-14-objective-c-persistence-descriptor",
+  "day": 14,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Selective Memory",
+  "prompt": "Objective-C never forgets: every class, every selector, every string is registered and waiting. Read the persistence descriptor and learn what this binary remembers.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day14/binary-selective-memory.md",
+  "release_day": 14
+ },
+ {
+  "id": "metadata-forensics-day-14-shortcut-home",
+  "day": 14,
+  "lane": "metadata-forensics",
+  "title": "🔎 The Shortcut Home",
+  "prompt": "A shortcut collection is a map of intent—if you read where each link points instead of where it sits. Reconstruct the targets and identify the impossible destination.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day14/metadata-the-shortcut-home.md",
+  "release_day": 14
+ },
+ {
+  "id": "mobile-android-day-14-predictable-crypto",
+  "day": 14,
+  "lane": "mobile-android",
+  "title": "📱 Predictable Crypto",
+  "prompt": "Exploit seeded nonces or weak derivation without bypassing earlier storage gates.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day14/mobile-predictable-crypto.md",
+  "release_day": 14
+ },
+ {
+  "id": "script-analysis-day-14-msbuild-trusted-project-abuse",
+  "day": 14,
+  "lane": "script-analysis",
+  "title": "📜 Trust the Process",
+  "prompt": "An MSBuild project looks like routine build plumbing until you follow its properties into its targets. Recover the property and target flow, compare it with earlier execution chains, and find where a trusted toolchain is doing untrusted work.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day14/script-trust-the-process.md",
+  "release_day": 14
+ },
+ {
+  "id": "warmups-day-14",
+  "day": 14,
+  "lane": "warmups",
+  "title": "👶 Seven Steps",
+  "prompt": "Caesar took a week off.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 68,
+    "regular_set_count": 68,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 85000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day14/warmups-seven-steps.md",
+  "release_day": 14
+ },
+ {
+  "id": "binary-reverse-engineering-day-15-assembly-and-symbol-loss",
+  "day": 15,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Stripped",
+  "prompt": "No symbols. No names. Just raw assembly and the calling conventions it can't hide. Reconstruct the stripped functions from the instructions alone — the stack never lies.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 320000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day15/binary-stripped.md",
+  "release_day": 15
+ },
+ {
+  "id": "metadata-forensics-day-15-word-to-the-wise",
+  "day": 15,
+  "lane": "metadata-forensics",
+  "title": "🔎 A Word to the Wise",
+  "prompt": "Office documents contain relationships that point beyond the page. Separate internal references from external dependencies and find the document reaching somewhere it should not.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day15/metadata-a-word-to-the-wise.md",
+  "release_day": 15
+ },
+ {
+  "id": "mobile-android-day-15-native-library-secrets",
+  "day": 15,
+  "lane": "mobile-android",
+  "title": "📱 Native Library Secrets",
+  "prompt": "Recover split configuration from DEX and a challenge-owned native library.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day15/mobile-native-library-secrets.md",
+  "release_day": 15
+ },
+ {
+  "id": "script-analysis-day-15-credential-store-clues",
+  "day": 15,
+  "lane": "script-analysis",
+  "title": "📜 Crumb Trail",
+  "prompt": "Some credential-access-shaped code keeps rummaging through the browser's cupboards, and synthetic store artifacts are sitting there waiting. Connect each code path to the artifact it targets, and find the reference that points at a store that was never there.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day15/script-crumb-trail.md",
+  "release_day": 15
+ },
+ {
+  "id": "warmups-day-15",
+  "day": 15,
+  "lane": "warmups",
+  "title": "👶 Room Forty-Seven",
+  "prompt": "Even the punctuation went for a spin.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 73,
+    "regular_set_count": 73,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 90000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day15/warmups-room-forty-seven.md",
+  "release_day": 15
+ },
+ {
+  "id": "binary-reverse-engineering-day-16-webassembly-optimization-equivalence",
+  "day": 16,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Wasm Up",
+  "prompt": "WebAssembly runs in a sandbox, but the sandbox has doors: imports, memory, indirect calls. Map every door in this module and inventory what passes through.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 320000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day16/binary-wasm-up.md",
+  "release_day": 16
+ },
+ {
+  "id": "metadata-forensics-day-16-return-to-sender",
+  "day": 16,
+  "lane": "metadata-forensics",
+  "title": "🔎 Return to Sender",
+  "prompt": "A mailbox export contains replies, forwards, duplicates, and reconstructed messages. Use stable message identities to rebuild which mail actually belongs together.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day16/metadata-return-to-sender.md",
+  "release_day": 16
+ },
+ {
+  "id": "mobile-android-day-16-jni-boundary",
+  "day": 16,
+  "lane": "mobile-android",
+  "title": "📱 JNI Boundary",
+  "prompt": "Identify a Java-to-native type or length assumption that changes backend authorization.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day16/mobile-jni-boundary.md",
+  "release_day": 16
+ },
+ {
+  "id": "script-analysis-day-16-obfuscation-equivalence",
+  "day": 16,
+  "lane": "script-analysis",
+  "title": "📜 Same Same, But Different",
+  "prompt": "Several obfuscation families have scrambled the same logic independently, or so they claim. Strip each version down to its semantics, prove which ones are truly equivalent, and expose the variant that quietly changed the plot.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day16/script-same-same-but-different.md",
+  "release_day": 16
+ },
+ {
+  "id": "warmups-day-16",
+  "day": 16,
+  "lane": "warmups",
+  "title": "👶 Dot Com",
+  "prompt": "Sixteen little symbols are calling. Dot dot dot.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 78,
+    "regular_set_count": 78,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 95000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day16/warmups-dot-com.md",
+  "release_day": 16
+ },
+ {
+  "id": "binary-reverse-engineering-day-17-encoded-configuration-recovery",
+  "day": 17,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Decoder Ring",
+  "prompt": "The configuration is encoded, but the decoder ships with the binary — a ring waiting for its secret. Recover the reversible decoder and read what it was hiding.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 325000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day17/binary-decoder-ring.md",
+  "release_day": 17
+ },
+ {
+  "id": "metadata-forensics-day-17-hear-me-out",
+  "day": 17,
+  "lane": "metadata-forensics",
+  "title": "🔎 Hear Me Out",
+  "prompt": "Voice notes have been transcoded, renamed, and embedded in mail. Determine the actual codecs, connect equivalent recordings, and find the stream that breaks the sender’s story.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day17/metadata-hear-me-out.md",
+  "release_day": 17
+ },
+ {
+  "id": "mobile-android-day-17-name-collapse",
+  "day": 17,
+  "lane": "mobile-android",
+  "title": "📱 Name Collapse",
+  "prompt": "Restore behavior after deterministic identifier shrinking and decoy insertion.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day17/mobile-name-collapse.md",
+  "release_day": 17
+ },
+ {
+  "id": "script-analysis-day-17-download-graph",
+  "day": 17,
+  "lane": "script-analysis",
+  "title": "📜 Fetch Quest",
+  "prompt": "The source code says where it would fetch from, and the generated network evidence says where the requests actually went. Reconcile both into one download graph, and find the indicator that shows up on only one side of the story.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day17/script-fetch-quest.md",
+  "release_day": 17
+ },
+ {
+  "id": "warmups-day-17",
+  "day": 17,
+  "lane": "warmups",
+  "title": "👶 Bacon Bits",
+  "prompt": "Sixteen guests. Five little a's and b's apiece.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 83,
+    "regular_set_count": 83,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 100000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day17/warmups-bacon-bits.md",
+  "release_day": 17
+ },
+ {
+  "id": "binary-reverse-engineering-day-18-control-flow-reconstruction",
+  "day": 18,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Flow State",
+  "prompt": "Follow the calls and the program tells you its story. Reconstruct the call graph, read the API intent at each edge, and prove no injection hides in the flow.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 265000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day18/binary-flow-state.md",
+  "release_day": 18
+ },
+ {
+  "id": "metadata-forensics-day-18-frame-of-reference",
+  "day": 18,
+  "lane": "metadata-forensics",
+  "title": "🔎 Frame of Reference",
+  "prompt": "Clips, previews, and screen recordings have been mixed together. Use stream geometry to identify originals, crops, and the recording that could not have come from the claimed device.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day18/metadata-frame-of-reference.md",
+  "release_day": 18
+ },
+ {
+  "id": "mobile-android-day-18-encrypted-strings",
+  "day": 18,
+  "lane": "mobile-android",
+  "title": "📱 Encrypted Strings",
+  "prompt": "Recover only the strings that reach security-sensitive Android and backend APIs.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day18/mobile-encrypted-strings.md",
+  "release_day": 18
+ },
+ {
+  "id": "script-analysis-day-18-process-story",
+  "day": 18,
+  "lane": "script-analysis",
+  "title": "📜 Orphan Process",
+  "prompt": "Source code describes which process should spawn which, and native telemetry keeps its own record of events. Reconstruct the static process tree, and catch the child claiming a parent it never had.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day18/script-orphan-process.md",
+  "release_day": 18
+ },
+ {
+  "id": "warmups-day-18",
+  "day": 18,
+  "lane": "warmups",
+  "title": "👶 Off the Rails",
+  "prompt": "Three rails. One very zigzag commute.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 88,
+    "regular_set_count": 88,
+    "ranked_pool_size": 1,
+    "regular_pool_size": 0,
+    "ranked_deadline_ms": 105000,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day18/warmups-off-the-rails.md",
+  "release_day": 18
+ },
+ {
+  "id": "binary-reverse-engineering-day-19-static-unpacking",
+  "day": 19,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Jack in the Box",
+  "prompt": "There's a payload hiding inside this binary, and a little decoder stub wound up to pop it out. Find the stub, watch it work, and catch what's inside — statically.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 325000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day19/binary-jack-in-the-box.md",
+  "release_day": 19
+ },
+ {
+  "id": "metadata-forensics-day-19-little-endian-on-the-prairie",
+  "day": 19,
+  "lane": "metadata-forensics",
+  "title": "🔎 Little Endian on the Prairie",
+  "prompt": "Linux binaries from several systems have been pooled with Windows executables and renamed data. Determine architecture directly from the ELF header and rebuild deployment groups.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day19/metadata-little-endian-on-the-prairie.md",
+  "release_day": 19
+ },
+ {
+  "id": "mobile-android-day-19-reflection-maze",
+  "day": 19,
+  "lane": "mobile-android",
+  "title": "📱 Reflection Maze",
+  "prompt": "Reconstruct reflective dispatch across generated equivalent call graphs.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day19/mobile-reflection-maze.md",
+  "release_day": 19
+ },
+ {
+  "id": "script-analysis-day-19-managed-assembly-bridge",
+  "day": 19,
+  "lane": "script-analysis",
+  "title": "📜 Sharp Practice",
+  "prompt": "A Roslyn C# script and an inline ASPX host act as a bridge that carries managed code back into the script corpus. Recover their layered configuration, resolve each static handoff, and work out where the bridge actually leads.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day19/script-sharp-practice.md",
+  "release_day": 19
+ },
+ {
+  "id": "warmups-day-19",
+  "day": 19,
+  "lane": "warmups",
+  "title": "👶 Little Things",
+  "prompt": "Two bytes walk into a bar. The little one goes first.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 93,
+    "regular_set_count": 93,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 110000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day19/warmups-little-things.md",
+  "release_day": 19
+ },
+ {
+  "id": "web-exploitation-day-01-backup-exposure",
+  "day": 19,
+  "lane": "web-exploitation",
+  "title": "🌐 Back Up a Minute",
+  "prompt": "The deploy left its diary behind. Somewhere out in the open, an old backup is still telling secrets — go find the archive this site forgot to clean up.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day01/web-back-up-a-minute.md",
+  "release_day": 19
+ },
+ {
+  "id": "web-exploitation-day-02-idor",
+  "day": 19,
+  "lane": "web-exploitation",
+  "title": "🌐 Permission to Slip",
+  "prompt": "Your neighbor's records are none of your business. Pity the object API never got that memo — see if you can slip into somebody else's row.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day02/web-permission-to-slip.md",
+  "release_day": 19
+ },
+ {
+  "id": "web-exploitation-day-03-sqli",
+  "day": 19,
+  "lane": "web-exploitation",
+  "title": "🌐 Query Me This",
+  "prompt": "The search box trusts you a little too much. Ask the database one pointed question and read the row it was never supposed to show you.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day03/web-query-me-this.md",
+  "release_day": 19
+ },
+ {
+  "id": "binary-reverse-engineering-day-20-resources-and-overlays",
+  "day": 20,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Resourceful",
+  "prompt": "Binaries have attics: resources, overlays, bytes past the end of the sections. Rummage through this one's hidden storage and map every boundary.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 325000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day20/binary-resourceful.md",
+  "release_day": 20
+ },
+ {
+  "id": "metadata-forensics-day-20-universal-appeal",
+  "day": 20,
+  "lane": "metadata-forensics",
+  "title": "🔎 Universal Appeal",
+  "prompt": "A macOS deployment includes thin and universal binaries mixed with archives. Enumerate every CPU type and identify what truly supports the advertised fleet.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day20/metadata-universal-appeal.md",
+  "release_day": 20
+ },
+ {
+  "id": "mobile-android-day-20-loaded-later",
+  "day": 20,
+  "lane": "mobile-android",
+  "title": "📱 Loaded Later",
+  "prompt": "Analyze a challenge-signed secondary DEX and recover the module contract.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day20/mobile-loaded-later.md",
+  "release_day": 20
+ },
+ {
+  "id": "script-analysis-day-20-jenkins-pipeline-intrusion",
+  "day": 20,
+  "lane": "script-analysis",
+  "title": "📜 The Butler Did It",
+  "prompt": "A Jenkins Pipeline splits its Groovy stages between controller and agent, and not every step runs where it appears to. Recover the pipeline's intent, separate controller semantics from agent semantics, and trace the modeled build into its prior-language stages.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day20/script-the-butler-did-it.md",
+  "release_day": 20
+ },
+ {
+  "id": "warmups-day-20",
+  "day": 20,
+  "lane": "warmups",
+  "title": "👶 Big Entrance",
+  "prompt": "Same bar. This time the big one goes first.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 98,
+    "regular_set_count": 98,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 115000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day20/warmups-big-entrance.md",
+  "release_day": 20
+ },
+ {
+  "id": "web-exploitation-day-04-lfi",
+  "day": 20,
+  "lane": "web-exploitation",
+  "title": "🌐 Stay in Your Directory",
+  "prompt": "The viewer should stay inside its pages directory. An operations note says the attempt proof is mounted at /run/huntress/objective.txt. Can you make the viewer cross that boundary?",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day04/web-stay-in-your-directory.md",
+  "release_day": 20
+ },
+ {
+  "id": "web-exploitation-day-05-administratively-speaking",
+  "day": 20,
+  "lane": "web-exploitation",
+  "title": "🌐 Administratively Speaking",
+  "prompt": "There's a staff-only door with no lock on it — just a sign. Walk through like you own the place and prove the bouncer never existed.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day05/web-administratively-speaking.md",
+  "release_day": 20
+ },
+ {
+  "id": "binary-reverse-engineering-day-21-shared-library-boundaries",
+  "day": 21,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Shared Custody",
+  "prompt": "No binary is an island — this one leans on shared libraries for everything. Trace the exports, the imports, and the loader's handshake, and mind the boundaries.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 325000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day21/binary-shared-custody.md",
+  "release_day": 21
+ },
+ {
+  "id": "metadata-forensics-day-21-package-deal",
+  "day": 21,
+  "lane": "metadata-forensics",
+  "title": "🔎 Package Deal",
+  "prompt": "Mobile packages have been mirrored under friendly filenames. Recover Android package identities, distinguish rebuilds from clones, and expose the borrowed product name.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day21/metadata-package-deal.md",
+  "release_day": 21
+ },
+ {
+  "id": "mobile-android-day-21-debug-me-if-you-can",
+  "day": 21,
+  "lane": "mobile-android",
+  "title": "📱 Debug Me If You Can",
+  "prompt": "Neutralize a clean-room anti-debug state machine while retaining the intended app flow.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day21/mobile-debug-me-if-you-can.md",
+  "release_day": 21
+ },
+ {
+  "id": "script-analysis-day-21-github-actions-persistence",
+  "day": 21,
+  "lane": "script-analysis",
+  "title": "📜 Actions Speak Louder",
+  "prompt": "A GitHub Actions workflow decides who can trigger it and which runner inherits the trust. Identify each trigger and trust boundary, follow the static handoff into the next language, and find the job that keeps coming back.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 90000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day21/script-actions-speak-louder.md",
+  "release_day": 21
+ },
+ {
+  "id": "warmups-day-21",
+  "day": 21,
+  "lane": "warmups",
+  "title": "👶 Under Pressure",
+  "prompt": "A familiar wrapper. Something compressed inside.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 103,
+    "regular_set_count": 103,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day21/warmups-under-pressure.md",
+  "release_day": 21
+ },
+ {
+  "id": "web-exploitation-day-06-reflect-upon-this",
+  "day": 21,
+  "lane": "web-exploitation",
+  "title": "🌐 Reflect Upon This",
+  "prompt": "This page repeats everything you tell it. Make it repeat something that talks back — land the isolated callback and watch it reflect.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day06/web-reflect-upon-this.md",
+  "release_day": 21
+ },
+ {
+  "id": "web-exploitation-day-07-stored-xss",
+  "day": 21,
+  "lane": "web-exploitation",
+  "title": "🌐 Stored for Later",
+  "prompt": "Leave a little present in the guestbook. It only goes off when the reviewer stops by — good things come to those who wait.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 2,
+    "regular_set_count": 2,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day07/web-stored-for-later.md",
+  "release_day": 21
+ },
+ {
+  "id": "web-exploitation-day-08-session-impression",
+  "day": 21,
+  "lane": "web-exploitation",
+  "title": "🌐 Session Impression",
+  "prompt": "First impressions matter. Plant your session on the welcome mat, then stroll in wearing somebody else's credentials.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day08/web-session-impression.md",
+  "release_day": 21
+ },
+ {
+  "id": "binary-reverse-engineering-day-22-managed-native-bridge",
+  "day": 22,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Bridge Troll",
+  "prompt": "Managed code on one side, native code on the other, and a bridge of P/Invoke and FFI in between. Pay the troll: trace every crossing and map what goes over.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 6,
+    "regular_set_count": 6,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 400000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day22/binary-bridge-troll.md",
+  "release_day": 22
+ },
+ {
+  "id": "metadata-forensics-day-22-main-character-energy",
+  "day": 22,
+  "lane": "metadata-forensics",
+  "title": "🔎 Main Character Energy",
+  "prompt": "Java archives contain libraries, applications, and nested dependencies whose manifests disagree with their launchers. Determine what is runnable and where execution begins.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 6,
+    "regular_set_count": 6,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day22/metadata-main-character-energy.md",
+  "release_day": 22
+ },
+ {
+  "id": "mobile-android-day-22-root-of-trust",
+  "day": 22,
+  "lane": "mobile-android",
+  "title": "📱 Root of Trust",
+  "prompt": "Model and bypass multiple synthetic root signals without globally patching success.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 6,
+    "regular_set_count": 6,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day22/mobile-root-of-trust.md",
+  "release_day": 22
+ },
+ {
+  "id": "script-analysis-day-22-installer-script-chain",
+  "day": 22,
+  "lane": "script-analysis",
+  "title": "📜 Next, Next, Finish",
+  "prompt": "An NSIS installer script clicks through its own setup wizard while carrying a little something extra. Separate the real setup actions from the modeled payload behavior, and recover every cross-language handoff from the final bytes. You won't need to press Next once.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 95000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 6,
+    "regular_set_count": 6,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 200000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day22/script-next-next-finish.md",
+  "release_day": 22
+ },
+ {
+  "id": "warmups-day-22",
+  "day": 22,
+  "lane": "warmups",
+  "title": "👶 Deflated Ego",
+  "prompt": "Another familiar wrapper. This one needs a little inflation.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 108,
+    "regular_set_count": 108,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 125000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day22/warmups-deflated-ego.md",
+  "release_day": 22
+ },
+ {
+  "id": "web-exploitation-day-09-forged-with-care",
+  "day": 22,
+  "lane": "web-exploitation",
+  "title": "🌐 Forged With Care",
+  "prompt": "The browser obeys whoever asks nicely — even strangers. Forge one careful request and make the app change its mind while signed in as someone else.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day09/web-forged-with-care.md",
+  "release_day": 22
+ },
+ {
+  "id": "web-exploitation-day-10-uploading-expectations",
+  "day": 22,
+  "lane": "web-exploitation",
+  "title": "🌐 Uploading Expectations",
+  "prompt": "The upload form has standards. Low ones. Slip your file past the bouncer and get it served from somewhere it was never meant to live.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day10/web-uploading-expectations.md",
+  "release_day": 22
+ },
+ {
+  "id": "binary-reverse-engineering-day-23-anti-analysis-recognition",
+  "day": 23,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Trust Issues",
+  "prompt": "This binary doesn't trust you. It checks the clock, sniffs the environment, and takes different branches when it thinks it's being watched. Spot every predicate and force the truth out.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 7,
+    "regular_set_count": 7,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 465000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day23/binary-trust-issues.md",
+  "release_day": 23
+ },
+ {
+  "id": "metadata-forensics-day-23-page-me-maybe",
+  "day": 23,
+  "lane": "metadata-forensics",
+  "title": "🔎 Page Me Maybe",
+  "prompt": "Application databases have been copied, truncated, embedded, and mislabeled. Validate page geometry, connect databases to parent applications, and find the impossible claim.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 7,
+    "regular_set_count": 7,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 230000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day23/metadata-page-me-maybe.md",
+  "release_day": 23
+ },
+ {
+  "id": "mobile-android-day-23-hook-line-and-signal",
+  "day": 23,
+  "lane": "mobile-android",
+  "title": "📱 Hook Line and Signal",
+  "prompt": "Separate real instrumentation signals from generated false positives.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 7,
+    "regular_set_count": 7,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 230000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day23/mobile-hook-line-and-signal.md",
+  "release_day": 23
+ },
+ {
+  "id": "script-analysis-day-23-game-resource-loader",
+  "day": 23,
+  "lane": "script-analysis",
+  "title": "📜 Press Start to Decode",
+  "prompt": "A GDScript resource loader builds its strings in layers, one power-up at a time. Undo the construction, recover the exact indicators, and correlate its stage relationships with the rest of the corpus to find the level that doesn't belong.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 7,
+    "regular_set_count": 7,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 230000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day23/script-press-start-to-decode.md",
+  "release_day": 23
+ },
+ {
+  "id": "warmups-day-23",
+  "day": 23,
+  "lane": "warmups",
+  "title": "👶 Eighty-Five Alive",
+  "prompt": "The alphabet got bigger. Adobe might recognize the neighbors.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 113,
+    "regular_set_count": 113,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 130000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day23/warmups-eighty-five-alive.md",
+  "release_day": 23
+ },
+ {
+  "id": "web-exploitation-day-11-template-temper",
+  "day": 23,
+  "lane": "web-exploitation",
+  "title": "🌐 Template Temper",
+  "prompt": "The template engine is feeling expressive today — it evaluates everything it hears. Whisper the right incantation and make the server speak in expressions.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day11/web-template-temper.md",
+  "release_day": 23
+ },
+ {
+  "id": "web-exploitation-day-12-ask-again-later",
+  "day": 23,
+  "lane": "web-exploitation",
+  "title": "🌐 Ask Again Later",
+  "prompt": "No answer right now? Fine. Plant your question inside the data and come back later — the delayed echo tells all.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day12/web-ask-again-later.md",
+  "release_day": 23
+ },
+ {
+  "id": "web-exploitation-day-13-posted-too-much",
+  "day": 23,
+  "lane": "web-exploitation",
+  "title": "🌐 Posted Too Much",
+  "prompt": "The form only asked for your name. But the API binds whatever you hand it — so hand it a promotion.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day13/web-posted-too-much.md",
+  "release_day": 23
+ },
+ {
+  "id": "binary-reverse-engineering-day-24-patch-diffing",
+  "day": 24,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Spot the Difference",
+  "prompt": "Two builds, one fix. Diff the vulnerable function against its corrected twin and pinpoint exactly what changed — then prove the old one was really broken.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 8,
+    "regular_set_count": 8,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 530000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day24/binary-spot-the-difference.md",
+  "release_day": 24
+ },
+ {
+  "id": "metadata-forensics-day-24-event-horizon",
+  "day": 24,
+  "lane": "metadata-forensics",
+  "title": "🔎 Event Horizon",
+  "prompt": "Windows event logs from several hosts have been duplicated, truncated, and bundled with reports. Count records accurately and find the selectively shortened timeline.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 8,
+    "regular_set_count": 8,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 265000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day24/metadata-event-horizon.md",
+  "release_day": 24
+ },
+ {
+  "id": "mobile-android-day-24-emulator-alibi",
+  "day": 24,
+  "lane": "mobile-android",
+  "title": "📱 Emulator Alibi",
+  "prompt": "Defeat app-owned environment checks on the same pinned emulator used by the solve oracle.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 8,
+    "regular_set_count": 8,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 260000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day24/mobile-emulator-alibi.md",
+  "release_day": 24
+ },
+ {
+  "id": "script-analysis-day-24-jsp-webshell-source",
+  "day": 24,
+  "lane": "script-analysis",
+  "title": "📜 Web of Lies",
+  "prompt": "This JSP source is shaped like a webshell: it reads requests and stages server-side work. Recover the order of requests and stages, then separate the inert fixture behavior from the lines that would be real execution primitives in the wild.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 8,
+    "regular_set_count": 8,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 260000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day24/script-web-of-lies.md",
+  "release_day": 24
+ },
+ {
+  "id": "warmups-day-24",
+  "day": 24,
+  "lane": "warmups",
+  "title": "👶 String Theory",
+  "prompt": "Count carefully. The comma knows where to stop.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 118,
+    "regular_set_count": 118,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 135000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day24/warmups-string-theory.md",
+  "release_day": 24
+ },
+ {
+  "id": "web-exploitation-day-14-the-api-has-opinions",
+  "day": 24,
+  "lane": "web-exploitation",
+  "title": "🌐 The API Has Opinions",
+  "prompt": "Take inventory of the API's little kingdom — every endpoint, every field, every function. Somewhere in there, authorization is merely a suggestion.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 3,
+    "regular_set_count": 3,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day14/web-the-api-has-opinions.md",
+  "release_day": 24
+ },
+ {
+  "id": "web-exploitation-day-15-fetch-quest",
+  "day": 24,
+  "lane": "web-exploitation",
+  "title": "🌐 Fetch Quest",
+  "prompt": "The server will fetch anything you point it at — including places you can't reach yourself. Send it on a quest to the internal service and collect what it brings back.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day15/web-fetch-quest.md",
+  "release_day": 24
+ },
+ {
+  "id": "binary-reverse-engineering-day-25-synthetic-vulnerability-root-cause",
+  "day": 25,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Out of Bounds",
+  "prompt": "Somewhere in here, the code reaches where it shouldn't. Prove the bounds error is real, trace its reachability, and compare against the corrected twin that learned its limits.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 9,
+    "regular_set_count": 9,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 595000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day25/binary-out-of-bounds.md",
+  "release_day": 25
+ },
+ {
+  "id": "metadata-forensics-day-25-hive-mind",
+  "day": 25,
+  "lane": "metadata-forensics",
+  "title": "🔎 Hive Mind",
+  "prompt": "Registry hives from multiple systems have been renamed and separated from host labels. Identify each true root, regroup the systems, and isolate the planted hive.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 9,
+    "regular_set_count": 9,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 295000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day25/metadata-hive-mind.md",
+  "release_day": 25
+ },
+ {
+  "id": "mobile-android-day-25-integrity-signals",
+  "day": 25,
+  "lane": "mobile-android",
+  "title": "📱 Integrity Signals",
+  "prompt": "Forge or replay a bounded challenge-owned integrity statement and explain the missing binding.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 9,
+    "regular_set_count": 9,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 290000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day25/mobile-integrity-signals.md",
+  "release_day": 25
+ },
+ {
+  "id": "script-analysis-day-25-phoenix-stage-chain",
+  "day": 25,
+  "lane": "script-analysis",
+  "title": "📜 Ashes to Assets",
+  "prompt": "Configuration starts out in Elixir source and has changed shape by the time an inert Phoenix-hosted stage picks it up. Follow every transformation, reconcile each one with earlier campaign artifacts, and find the setting that didn't survive the rebirth.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 9,
+    "regular_set_count": 9,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 290000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day25/script-ashes-to-assets.md",
+  "release_day": 25
+ },
+ {
+  "id": "warmups-day-25",
+  "day": 25,
+  "lane": "warmups",
+  "title": "👶 You Have a Point",
+  "prompt": "Every character has a point. A code point, anyway.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 123,
+    "regular_set_count": 123,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 140000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day25/warmups-you-have-a-point.md",
+  "release_day": 25
+ },
+ {
+  "id": "web-exploitation-day-16-shell-company",
+  "day": 25,
+  "lane": "web-exploitation",
+  "title": "🌐 Shell Company",
+  "prompt": "It's a shell company: all front, no substance — until your input gets a little too close to a real shell. Give it something to do and leave your mark.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day16/web-shell-company.md",
+  "release_day": 25
+ },
+ {
+  "id": "web-exploitation-day-17-reset-expectations",
+  "day": 25,
+  "lane": "web-exploitation",
+  "title": "🌐 Reset Expectations",
+  "prompt": "Forgot your password? This recovery flow forgot its manners. Walk the reset process sideways and wake up in somebody else's account.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day17/web-reset-expectations.md",
+  "release_day": 25
+ },
+ {
+  "id": "web-exploitation-day-18-resolver-revolt",
+  "day": 25,
+  "lane": "web-exploitation",
+  "title": "🌐 Resolver Revolt",
+  "prompt": "Discover the schema and reach a resolver whose field-level control is incomplete. Vary the protocol surface without changing the underlying authorization discipline.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day18/web-resolver-revolt.md",
+  "release_day": 25
+ },
+ {
+  "id": "binary-reverse-engineering-day-26-crash-triage",
+  "day": 26,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Crash Course",
+  "prompt": "It crashed. That's the good news — the dump is a confession. Unwind the stack, find the faulting instruction, and triage what went wrong from the wreckage.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 10,
+    "regular_set_count": 10,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 660000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day26/binary-crash-course.md",
+  "release_day": 26
+ },
+ {
+  "id": "metadata-forensics-day-26-before-you-go",
+  "day": 26,
+  "lane": "metadata-forensics",
+  "title": "🔎 Before You Go",
+  "prompt": "Prefetch evidence records what Windows prepared to execute even after filenames changed. Recover executable identities and connect execution traces to the correct hosts.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 10,
+    "regular_set_count": 10,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 325000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day26/metadata-before-you-go.md",
+  "release_day": 26
+ },
+ {
+  "id": "mobile-android-day-26-split-decision",
+  "day": 26,
+  "lane": "mobile-android",
+  "title": "📱 Split Decision",
+  "prompt": "Reassemble evidence distributed across base and configuration splits.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 10,
+    "regular_set_count": 10,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 320000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day26/mobile-split-decision.md",
+  "release_day": 26
+ },
+ {
+  "id": "script-analysis-day-26-beam-message-flow",
+  "day": 26,
+  "lane": "script-analysis",
+  "title": "📜 Mixed Signals",
+  "prompt": "An Erlang escript passes messages between processes, and some of its indicators look suspiciously familiar. Trace the message flow, and separate the true cross-language indicators from deterministic collision decoys planted to look like old friends.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 10,
+    "regular_set_count": 10,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 320000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day26/script-mixed-signals.md",
+  "release_day": 26
+ },
+ {
+  "id": "warmups-day-26",
+  "day": 26,
+  "lane": "warmups",
+  "title": "👶 Food for Thought",
+  "prompt": "A very small language has quite a lot to say.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 128,
+    "regular_set_count": 128,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 145000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day26/warmups-food-for-thought.md",
+  "release_day": 26
+ },
+ {
+  "id": "web-exploitation-day-19-trust-the-webhook",
+  "day": 26,
+  "lane": "web-exploitation",
+  "title": "🌐 Trust the Webhook",
+  "prompt": "The app believes every event it's told about. Tell it a convincing enough story and watch it act on your forged news.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day19/web-trust-the-webhook.md",
+  "release_day": 26
+ },
+ {
+  "id": "web-exploitation-day-20-serialized-offender",
+  "day": 26,
+  "lane": "web-exploitation",
+  "title": "🌐 Serialized Offender",
+  "prompt": "Your session is just a blob of misplaced trust. Reshape the bytes, sign nothing, and see what the app suddenly believes about you.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day20/web-serialized-offender.md",
+  "release_day": 26
+ },
+ {
+  "id": "binary-reverse-engineering-day-27-compiler-attribution",
+  "day": 27,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Compiler Says What",
+  "prompt": "Every compiler signs its work. Compare the runtime and linker fingerprints across builds and name the toolchain — attribute this binary to its maker.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 64,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 11,
+    "regular_set_count": 11,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 725000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day27/binary-compiler-says-what.md",
+  "release_day": 27
+ },
+ {
+  "id": "metadata-forensics-day-27-packet-loss-prevention",
+  "day": 27,
+  "lane": "metadata-forensics",
+  "title": "🔎 Packet Loss Prevention",
+  "prompt": "Packet captures, exports, and host artifacts describe the same incident from different angles. Count traffic, reject malformed captures, and find the host narrative missing network evidence.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 11,
+    "regular_set_count": 11,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 355000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day27/metadata-packet-loss-prevention.md",
+  "release_day": 27
+ },
+ {
+  "id": "mobile-android-day-27-dependency-surface",
+  "day": 27,
+  "lane": "mobile-android",
+  "title": "📱 Dependency Surface",
+  "prompt": "Prove which generated dependency flaw is reachable from an exported mobile surface.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 11,
+    "regular_set_count": 11,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 350000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day27/mobile-dependency-surface.md",
+  "release_day": 27
+ },
+ {
+  "id": "script-analysis-day-27-docker-build-attribution",
+  "day": 27,
+  "lane": "script-analysis",
+  "title": "📜 FROM Whence It Came",
+  "prompt": "A Dockerfile and several earlier specimens share strings, but sharing strings doesn't mean sharing parents. Attribute each specimen using build-stage, semantic, and static-handoff evidence, and expose the resemblance that's only skin-deep.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 11,
+    "regular_set_count": 11,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 350000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day27/script-from-whence-it-came.md",
+  "release_day": 27
+ },
+ {
+  "id": "warmups-day-27",
+  "day": 27,
+  "lane": "warmups",
+  "title": "👶 Monkey Business",
+  "prompt": "Ook. Ook? Ook! Someone seems chatty.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 133,
+    "regular_set_count": 133,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 150000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day27/warmups-monkey-business.md",
+  "release_day": 27
+ },
+ {
+  "id": "web-exploitation-day-21-double-spent",
+  "day": 27,
+  "lane": "web-exploitation",
+  "title": "🌐 Double Spent",
+  "prompt": "One credit, two purchases. The ledger can't count what it can't see coming — race it and spend the same credit twice.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 4,
+    "regular_set_count": 4,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day21/web-double-spent.md",
+  "release_day": 27
+ },
+ {
+  "id": "web-exploitation-day-22-socket-to-me",
+  "day": 27,
+  "lane": "web-exploitation",
+  "title": "🌐 Socket to Me",
+  "prompt": "The chat upgraded to websockets and left its manners at the HTTP door. Ride the upgrade into an event stream that was never meant for you.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day22/web-socket-to-me.md",
+  "release_day": 27
+ },
+ {
+  "id": "web-exploitation-day-23-forwarded-misgivings",
+  "day": 27,
+  "lane": "web-exploitation",
+  "title": "🌐 Forwarded Misgivings",
+  "prompt": "The app believes whatever the proxy whispers in its ear. Whisper the right header and stroll down the protected path as an insider.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day23/web-forwarded-misgivings.md",
+  "release_day": 27
+ },
+ {
+  "id": "binary-reverse-engineering-day-28-family-clustering",
+  "day": 28,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Family Resemblance",
+  "prompt": "These binaries might be related — or they might just look alike. Cluster them by behavior, watch out for false friends, and sort the family from the strangers.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 171,
+    "regular_pool_size": 85,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 12,
+    "regular_set_count": 12,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 570000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day28/binary-family-resemblance.md",
+  "release_day": 28
+ },
+ {
+  "id": "metadata-forensics-day-28-where-it-all-began",
+  "day": 28,
+  "lane": "metadata-forensics",
+  "title": "🔎 Where It All Began",
+  "prompt": "Disk images hold every previous artifact family in context. Recover partition layouts, locate evidence by offset, and prove which image was rebuilt from an incomplete source.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 12,
+    "regular_set_count": 12,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 385000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day28/metadata-where-it-all-began.md",
+  "release_day": 28
+ },
+ {
+  "id": "mobile-android-day-28-protocol-reconstruction",
+  "day": 28,
+  "lane": "mobile-android",
+  "title": "📱 Protocol Reconstruction",
+  "prompt": "Reconstruct the app-to-backend protocol and preserve nonce and ordering semantics.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 12,
+    "regular_set_count": 12,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 380000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day28/mobile-protocol-reconstruction.md",
+  "release_day": 28
+ },
+ {
+  "id": "script-analysis-day-28-terraform-cloud-timeline",
+  "day": 28,
+  "lane": "script-analysis",
+  "title": "📜 Out of Order",
+  "prompt": "Terraform HCL describes cloud resources, expressions, and dependencies that change over time. Assemble the timeline from resources, prior scripts, and relationship evidence — without planning or applying anything — and find the change that happened out of order.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 12,
+    "regular_set_count": 12,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 380000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day28/script-out-of-order.md",
+  "release_day": 28
+ },
+ {
+  "id": "warmups-day-28",
+  "day": 28,
+  "lane": "warmups",
+  "title": "👶 Back in Sixteen",
+  "prompt": "Our sixteen-fingered friend is walking backwards.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 138,
+    "regular_set_count": 138,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 155000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day28/warmups-back-in-sixteen.md",
+  "release_day": 28
+ },
+ {
+  "id": "web-exploitation-day-24-fail-open-friday",
+  "day": 28,
+  "lane": "web-exploitation",
+  "title": "🌐 Fail Open Friday",
+  "prompt": "The remote policy decoder is part of an access decision. A valid public decision is documented in the application; investigate what happens when that decision cannot be decoded.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day24/web-fail-open-friday.md",
+  "release_day": 28
+ },
+ {
+  "id": "web-exploitation-day-25-if-a-breach-falls-in-a-log",
+  "day": 28,
+  "lane": "web-exploitation",
+  "title": "🌐 If a Breach Falls in a Log",
+  "prompt": "You broke in, and nobody wrote it down. Find the decisive moment the logs missed — if a breach falls in the forest, did it make a sound?",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day25/web-if-a-breach-falls-in-a-log.md",
+  "release_day": 28
+ },
+ {
+  "id": "binary-reverse-engineering-day-29-variant-diffing",
+  "day": 29,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Fraternal Twins",
+  "prompt": "Two binaries, same source, different compiler moods. Diff the variants, account for every optimization, and prove they're semantically the same program.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 171,
+    "regular_pool_size": 85,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 13,
+    "regular_set_count": 13,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 620000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day29/binary-fraternal-twins.md",
+  "release_day": 29
+ },
+ {
+  "id": "metadata-forensics-day-29-trust-issues",
+  "day": 29,
+  "lane": "metadata-forensics",
+  "title": "🔎 Trust Issues",
+  "prompt": "Certificates appear in binaries, packages, mail, captures, and disk images. Fingerprint each one, collapse duplicates, and identify the trust claim unsupported by evidence.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 13,
+    "regular_set_count": 13,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 415000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day29/metadata-trust-issues.md",
+  "release_day": 29
+ },
+ {
+  "id": "mobile-android-day-29-white-box-key-recovery",
+  "day": 29,
+  "lane": "mobile-android",
+  "title": "📱 White Box Key Recovery",
+  "prompt": "Recover an equivalent key operation from challenge-owned table transformations, not a third-party protected binary.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 13,
+    "regular_set_count": 13,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 410000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day29/mobile-white-box-key-recovery.md",
+  "release_day": 29
+ },
+ {
+  "id": "script-analysis-day-29-makefile-variant-diff",
+  "day": 29,
+  "lane": "script-analysis",
+  "title": "📜 Make It Make Sense",
+  "prompt": "Unseen Makefile variants and their prior-language build chains differ in layered variables and target flow. Diff them carefully, and keep only the tradecraft conclusions that hold up across every variant.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 13,
+    "regular_set_count": 13,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 410000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day29/script-make-it-make-sense.md",
+  "release_day": 29
+ },
+ {
+  "id": "warmups-day-29",
+  "day": 29,
+  "lane": "warmups",
+  "title": "👶 Rotten Base",
+  "prompt": "Sixty-four invited thirteen over. Things got scrambled.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 143,
+    "regular_set_count": 143,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 160000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day29/warmups-rotten-base.md",
+  "release_day": 29
+ },
+ {
+  "id": "web-exploitation-day-26-trust-the-build",
+  "day": 29,
+  "lane": "web-exploitation",
+  "title": "🌐 Trust the Build",
+  "prompt": "The updater trusts its packages like old friends. Slip a tampered dependency into the build and watch it install your version of the truth.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day26/web-trust-the-build.md",
+  "release_day": 29
+ },
+ {
+  "id": "web-exploitation-day-27-internal-affairs",
+  "day": 29,
+  "lane": "web-exploitation",
+  "title": "🌐 Internal Affairs",
+  "prompt": "Two service boundaries, one hallway. Use the public fetch to knock on the internal door, then borrow somebody else's records on the way out.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day27/web-internal-affairs.md",
+  "release_day": 29
+ },
+ {
+  "id": "binary-reverse-engineering-day-30-multi-binary-campaign",
+  "day": 30,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Campaign Trail",
+  "prompt": "One binary is a clue; a campaign is a story. Reconstruct the loader, library, and config graph across the whole set and map the operation end to end.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 171,
+    "regular_pool_size": 85,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 14,
+    "regular_set_count": 14,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 665000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day30/binary-campaign-trail.md",
+  "release_day": 30
+ },
+ {
+  "id": "binary-reverse-engineering-day-30-sha1-hulud",
+  "day": 30,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ SHA1-Hulud",
+  "prompt": "I made this challenge because I was really upset that TeamPCP dropped the ball with this payload name. Anyway, here's Wonder Wall!\n\n> The password for this archive is **`infected`**.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   }
+  ],
+  "writeup": "day30/binary-sha1-hulud.md",
+  "release_day": 30
+ },
+ {
+  "id": "metadata-forensics-day-30-seeing-double",
+  "day": 30,
+  "lane": "metadata-forensics",
+  "title": "🔎 Seeing Double",
+  "prompt": "The corpus is too large for manual browsing. Build a relationship map from exact identity, semantic identity, containment, and claimed provenance—then expose the fabricated cluster.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 14,
+    "regular_set_count": 14,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 445000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day30/metadata-seeing-double.md",
+  "release_day": 30
+ },
+ {
+  "id": "mobile-android-day-30-layered-protections",
+  "day": 30,
+  "lane": "mobile-android",
+  "title": "📱 Layered Protections",
+  "prompt": "Unwind obfuscation, native indirection, runtime decryption, and integrity checks while proving the same backend effect.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 14,
+    "regular_set_count": 14,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 440000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day30/mobile-layered-protections.md",
+  "release_day": 30
+ },
+ {
+  "id": "script-analysis-day-30-beanshell-jsp-graph",
+  "day": 30,
+  "lane": "script-analysis",
+  "title": "📜 Spill the Beans",
+  "prompt": "BeanShell source sits inside an inert JSP host container, and it's the last piece of a thirty-language puzzle. Analyze both, then rebuild the complete execution, host, and evidence graph, and find the edge that holds everything together.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 14,
+    "regular_set_count": 14,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 580000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day30/script-spill-the-beans.md",
+  "release_day": 30
+ },
+ {
+  "id": "warmups-day-30",
+  "day": 30,
+  "lane": "warmups",
+  "title": "👶 Percent Percent",
+  "prompt": "That address bar problem? It happened twice.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 148,
+    "regular_set_count": 148,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 165000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day30/warmups-percent-percent.md",
+  "release_day": 30
+ },
+ {
+  "id": "web-exploitation-day-28-pass-the-identity",
+  "day": 30,
+  "lane": "web-exploitation",
+  "title": "🌐 Pass the Identity",
+  "prompt": "Your identity is a hall pass — and this building accepts photocopies. Carry it across a delegated service boundary and cash it in where it doesn't belong.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 5,
+    "regular_set_count": 5,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day28/web-pass-the-identity.md",
+  "release_day": 30
+ },
+ {
+  "id": "web-exploitation-day-29-queue-the-confusion",
+  "day": 30,
+  "lane": "web-exploitation",
+  "title": "🌐 Queue the Confusion",
+  "prompt": "Your job went into the queue with your name on it. Loosen the binding and watch somebody else's outcome come out wearing your stamp.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 6,
+    "regular_set_count": 6,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day29/web-queue-the-confusion.md",
+  "release_day": 30
+ },
+ {
+  "id": "binary-reverse-engineering-day-31-reversing-gauntlet",
+  "day": 31,
+  "lane": "binary-reverse-engineering",
+  "title": "⚙️ Final Boss",
+  "prompt": "The gauntlet: everything you've learned, across platforms and languages, in one campaign. Reconstruct it all, end to end, offline. No hints. Good luck.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 171,
+    "regular_pool_size": 85,
+    "ranked_deadline_ms": 80000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 15,
+    "regular_set_count": 15,
+    "ranked_pool_size": 128,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 715000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day31/binary-final-boss.md",
+  "release_day": 31
+ },
+ {
+  "id": "metadata-forensics-day-31-no-artifact-left-behind",
+  "day": 31,
+  "lane": "metadata-forensics",
+  "title": "🔎 No Artifact Left Behind",
+  "prompt": "Everything is evidence now. Reconstruct the complete execution-and-delivery chain, defend every edge with primary metadata, and identify the tempting conclusion the corpus does not support.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 15,
+    "regular_set_count": 15,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 480000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day31/metadata-no-artifact-left-behind.md",
+  "release_day": 31
+ },
+ {
+  "id": "mobile-android-day-31-mobile-arena-gauntlet",
+  "day": 31,
+  "lane": "mobile-android",
+  "title": "📱 Mobile Arena Gauntlet",
+  "prompt": "Complete a mass-generated multi-app campaign that composes every released mobile primitive under one aggregate clock.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 15,
+    "regular_set_count": 15,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 470000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day31/mobile-mobile-arena-gauntlet.md",
+  "release_day": 31
+ },
+ {
+  "id": "script-analysis-day-31-xslt-final-gauntlet",
+  "day": 31,
+  "lane": "script-analysis",
+  "title": "📜 The Full Transform",
+  "prompt": "An unseen XSLT-led campaign ties together all thirty-one languages, every hosted-source profile, and every finding family you've proven. Read all of it, run none of it, and deliver the final analysis.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 50000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 15,
+    "regular_set_count": 15,
+    "ranked_pool_size": 32,
+    "regular_pool_size": 32,
+    "ranked_deadline_ms": 610000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day31/script-the-full-transform.md",
+  "release_day": 31
+ },
+ {
+  "id": "warmups-day-31",
+  "day": 31,
+  "lane": "warmups",
+  "title": "👶 One More Thing",
+  "prompt": "Thirty-two, a little pressure, then sixty-four. Unpack that thought.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 30000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 153,
+    "regular_set_count": 153,
+    "ranked_pool_size": 256,
+    "regular_pool_size": 128,
+    "ranked_deadline_ms": 170000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day31/warmups-one-more-thing.md",
+  "release_day": 31
+ },
+ {
+  "id": "web-exploitation-day-30-framework-roulette",
+  "day": 31,
+  "lane": "web-exploitation",
+  "title": "🌐 Framework Roulette",
+  "prompt": "New stack, no map, no familiar names. Everything you've learned, none of your crutches — prove the skills travel.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 6,
+    "regular_set_count": 6,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day30/web-framework-roulette.md",
+  "release_day": 31
+ },
+ {
+  "id": "web-exploitation-day-31-full-stack-incident",
+  "day": 31,
+  "lane": "web-exploitation",
+  "title": "🌐 Full Stack Incident",
+  "prompt": "Reconstruct the unsigned fetch-to-worker incident from the request log. Follow the exposed service routes to reproduce it, inspect the resulting evidence, then submit a detector and repair that block the attack while preserving signed status checks.",
+  "modes": [
+   {
+    "mode": "single_solve",
+    "ranked_set_count": 0,
+    "regular_set_count": 1,
+    "ranked_pool_size": 0,
+    "regular_pool_size": 1,
+    "ranked_deadline_ms": null,
+    "run_for_time_supported": false
+   },
+   {
+    "mode": "time_trial",
+    "ranked_set_count": 1,
+    "regular_set_count": 1,
+    "ranked_pool_size": 16,
+    "regular_pool_size": 16,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   },
+   {
+    "mode": "mastery",
+    "ranked_set_count": 8,
+    "regular_set_count": 8,
+    "ranked_pool_size": 8,
+    "regular_pool_size": 8,
+    "ranked_deadline_ms": 120000,
+    "run_for_time_supported": true
+   }
+  ],
+  "writeup": "day31/web-full-stack-incident.md",
+  "release_day": 31
+ }
+]

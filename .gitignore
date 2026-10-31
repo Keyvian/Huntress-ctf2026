@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.artifact
+*.zip
+*.apk
+*.exe
+*.dll
+*.elf
+*.bin
+*.jar
+*.pcap
+gm_token*
+.env
